@@ -68,7 +68,7 @@ Observing the communication between the two virtual machines after pinging the D
 
 ![image](https://github.com/user-attachments/assets/f6778708-3042-4750-90f6-71cec247eda5)
 
-
+ After running an ipconfig /all 
 
 
 ![image](https://github.com/user-attachments/assets/d79108c8-613a-4df5-96e1-07d8aeb91f68)
