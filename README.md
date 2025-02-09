@@ -32,9 +32,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/user-attachments/assets/4f397fc5-0538-41b0-bef7-9a702a0a2719)
 
+
+
+  After VM is created, set Domain Controller’s NIC Private IP address to be static. A Domain Controller's IP address needs to be static to ensure other devices can consistently locate it for authentication and resource access. A dynamic IP could cause communication failures, disrupting domain services and network functionality.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
@@ -42,9 +45,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ![image](https://github.com/user-attachments/assets/af110f0c-5f84-4bbc-a111-a617454c7073)
 
+
+After VM is created, setting the Client VM's DNS settings to the DC VM's Private IP address.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
@@ -53,14 +57,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ![image](https://github.com/user-attachments/assets/74c4cf14-d2c2-40ff-a991-b9cbe1b0381b)
 
-
+   Disabling the Windows Firewall for testing connectivity in the DC VM.
 
 ![image](https://github.com/user-attachments/assets/c15f5aec-52a1-45c5-adee-b14e2a4dfc50)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Observing the communication between the two virtual machines after pinging the DC VM from the Client VM.
 <br />
 
 ![image](https://github.com/user-attachments/assets/f6778708-3042-4750-90f6-71cec247eda5)
@@ -71,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![image](https://github.com/user-attachments/assets/d79108c8-613a-4df5-96e1-07d8aeb91f68)
 
 
-
+Active Directory (AD) is a directory service that stores and organizes network information like users, groups, and computers.
 
 ![image](https://github.com/user-attachments/assets/debbb524-547d-4678-bfb5-4e73a95e64eb)
 
