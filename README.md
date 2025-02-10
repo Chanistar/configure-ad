@@ -50,7 +50,7 @@ Create two Virtual Machines in the same Resourse Group, Network and Subnet:
 ![image](https://github.com/user-attachments/assets/af110f0c-5f84-4bbc-a111-a617454c7073)
 
 
-After the Client VM is created, setting the Client-VM's DNS settings to the DC-VM's Private IP address.
+After the Client-VM is created, setting the Client-VM's DNS settings to the DC-VM's Private IP address.
 </p>
 <p>
 </p>
