@@ -104,7 +104,7 @@ Joining the Client-VM to the Domain.
 
 
 Setting up Remote Desktop for non-administrative users on the Client-VM.                                                                                                                                            
-             Now it is possible to log into Client-1 as a normal, non-administrative user.
+             Now it is possible to log into the Client-VM as a normal, non-administrative user.
 
 
 
