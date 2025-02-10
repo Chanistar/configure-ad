@@ -26,6 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Installing Active Directory Domain Services. 
 - Adding a client to the Domain.
 - Allowing "domain users" access to Remote Desktop.
+- Configuring Active Directory and Group Policy.
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -94,10 +95,46 @@ Creating a Forest in Active Directory. (A Forest is the top-level container that
 Joining the Client-VM to the Domain.
 
 
-![image](https://github.com/user-attachments/assets/037788fb-d834-464b-a935-08d8ea07aa68)
+
+
+![image](https://github.com/user-attachments/assets/305ce9a7-43d8-484e-98da-056bcf89e031)
 
 
 
-Setting up Remote Desktop for non-administrative users on the Client-VM.
 
+
+Setting up Remote Desktop for non-administrative users on the Client-VM.                                                                                                                                            
+             Now it is possible to log into Client-1 as a normal, non-administrative user.
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/ace37d43-b6af-493f-9875-c9c9045ec8c7)
+
+
+
+
+Creating lots of additional users through PowerShell (as an administrater).
+
+
+
+
+![image](https://github.com/user-attachments/assets/6f17bcc6-93a0-4259-9e0d-823838753689)
+
+
+
+
+Configuring Group Policy of Active Directory: Locking out the account after 5 attempts.
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/39b76fb1-597b-49b6-8b78-b0d668875840)
+
+
+
+
+Resetting passwords from within Active Directory for locked out accounts.
 
