@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Creating and setting up the Virtual Machines.
 - Testing and Observing connectivity.
 - Installing Active Directory Domain Services. 
-- Adding a client to the Domain.
+- Adding clientelle to the Domain.
 - Allowing "domain users" access to Remote Desktop.
 - Configuring Active Directory and Group Policy.
 
