@@ -24,7 +24,7 @@ This guide outlines the installation and configuration of on-premises Active Dir
 - Creating and setting up the Virtual Machines.
 - Testing and Observing connectivity.
 - Installing Active Directory Domain Services. 
-- Adding clientelle to the Domain.
+- Adding clientele to the Domain.
 - Allowing "domain users" access to Remote Desktop.
 - Configuring Active Directory and Group Policy.
 
@@ -32,14 +32,14 @@ This guide outlines the installation and configuration of on-premises Active Dir
 
 <p>
 
-Create two Virtual Machines in the same Resourse Group, Network and Subnet:                                                                                                                                          
-    One as a Server and One as a standard Virtual Machine to be a client.
+Create two Virtual Machines in the same resource group, Network, and Subnet:                                                                                                                                          
+    One is a server, and one is a standard virtual machine used as a client.
 
 ![image](https://github.com/user-attachments/assets/4f397fc5-0538-41b0-bef7-9a702a0a2719)
 
 
 
-  After the DC-VM is created, setting the Domain Controller’s NIC Private IP address to be static. A Domain Controller's IP address needs to be static to ensure other devices can consistently locate it for authentication and resource access. A dynamic IP could cause communication failures, disrupting domain services and network functionality.
+  After the DC-VM is created, the Domain Controller’s NIC Private IP address is set to static. A Domain Controller's IP address needs to be static to ensure other devices can consistently locate it for authentication and resource access. A dynamic IP could cause communication failures, disrupting domain services and network functionality.
 </p>
 <p>
 
@@ -51,7 +51,7 @@ Create two Virtual Machines in the same Resourse Group, Network and Subnet:
 ![image](https://github.com/user-attachments/assets/af110f0c-5f84-4bbc-a111-a617454c7073)
 
 
-After the Client-VM is created, setting the Client-VM's DNS settings to the DC-VM's Private IP address.
+After the Client-VM is created, set the Client-VM's DNS settings to the DC-VM's Private IP address.
 </p>
 <p>
 </p>
@@ -86,7 +86,7 @@ Active Directory (AD) is a directory service that stores and organizes network i
 
 
 
-Creating a Forest in Active Directory. (A Forest is the top-level container that holds one or more domains, sharing a common schema and global catalog for centralized management and security.)
+Creating a Forest in Active Directory. (A Forest is a top-level container that holds one or more domains, sharing a common schema and global catalog for centralized management and security.)
 
 ![image](https://github.com/user-attachments/assets/b8ed06bd-7a9f-4ca2-a8af-14b785ac2860)
 
@@ -104,7 +104,7 @@ Joining the Client-VM to the Domain.
 
 
 Setting up Remote Desktop for non-administrative users on the Client-VM.                                                                                                                                            
-             Now it is possible to log into the Client-VM as a normal, non-administrative user.
+             Now, it is possible to log into the Client-VM as a normal, non-administrative user.
 
 
 
@@ -115,7 +115,7 @@ Setting up Remote Desktop for non-administrative users on the Client-VM.
 
 
 
-Creating lots of additional users through PowerShell (as an administrater).
+Creating lots of additional users through PowerShell (as an administrator).
 
 
 
@@ -125,7 +125,7 @@ Creating lots of additional users through PowerShell (as an administrater).
 
 
 
-Configuring Group Policy of Active Directory: Locking out the account after 5 attempts.
+Configuring Group Policy of Active Directory: Locking out the account after five attempts.
 
 
 
@@ -136,5 +136,5 @@ Configuring Group Policy of Active Directory: Locking out the account after 5 at
 
 
 
-Resetting passwords from within Active Directory for locked out accounts.
+Resetting passwords from within Active Directory for locked-out accounts.
 
