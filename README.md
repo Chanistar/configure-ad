@@ -33,7 +33,7 @@ This guide outlines the installation and configuration of on-premises Active Dir
 <p>
 
 Create two Virtual Machines in the same resource group, Network, and Subnet:                                                                                                                                          
-    One is a server, and one is a standard virtual machine used as a client.
+    One as a server, and one as a standard virtual machine used as a client.
 
 ![image](https://github.com/user-attachments/assets/4f397fc5-0538-41b0-bef7-9a702a0a2719)
 
