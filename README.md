@@ -86,7 +86,7 @@ Active Directory (AD) is a directory service that stores and organizes network i
 
 
 
-Creating a Forest in Active Directory. (A Forest is a top-level container that holds one or more domains, sharing a common schema and global catalog for centralized management and security.)
+Creating a forest in Active Directory. (A Forest is a top-level container that holds one or more domains, sharing a common schema and global catalog for centralized management and security.)
 
 ![image](https://github.com/user-attachments/assets/b8ed06bd-7a9f-4ca2-a8af-14b785ac2860)
 
@@ -115,7 +115,7 @@ Setting up Remote Desktop for non-administrative users on the Client-VM.
 
 
 
-Creating lots of additional users through PowerShell (as an administrator).
+Creating multiple additional users using PowerShell as an administrator.
 
 
 
@@ -125,7 +125,7 @@ Creating lots of additional users through PowerShell (as an administrator).
 
 
 
-Configuring Group Policy of Active Directory: Locking out the account after five attempts.
+Configuring Group Policy of Active Directory: Locking out the account after five failed login attempts.
 
 
 
