@@ -73,7 +73,7 @@ Observing the communication between the two virtual machines after pinging the D
 
 ![image](https://github.com/user-attachments/assets/f6778708-3042-4750-90f6-71cec247eda5)
 
- After running an ipconfig /all, we can see that the DNS Server's private IP address is now that of the DC-VM and not the usual Azure private IP address. 
+ After running the command ipconfig /all, we can see that the DNS Server's private IP address is now that of the DC-VM and not the usual Azure private IP address. 
 
 
 ![image](https://github.com/user-attachments/assets/d79108c8-613a-4df5-96e1-07d8aeb91f68)
