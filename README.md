@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-Premises Active Directory Implemented in the Cloud (Azure)</h1>
+<h1>On-Prem Active Directory Implemented in the Cloud (Azure)</h1>
 This guide outlines the installation and configuration of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
