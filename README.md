@@ -39,7 +39,7 @@ Create two Virtual Machines in the same resource group, Network, and Subnet:
 
 
 
-After the DC-VM is created, the Domain Controller’s NIC private IP address is set to static. A Domain Controller's IP address must remain static to ensure that other devices can reliably locate it for authentication and resource access. A dynamic IP could cause communication failures, interrupting domain services and network functionality.
+After creating the DC-VM, the Domain Controller’s NIC private IP address is set to static. A Domain Controller's IP address must remain static to ensure that other devices can reliably locate it for authentication and resource access. A dynamic IP address could cause communication failures, interrupting domain services and network functionality.
 </p>
 <p>
 
@@ -62,7 +62,7 @@ After creating the Client-VM, configure its DNS settings to point to the DC-VM's
 
 ![image](https://github.com/user-attachments/assets/74c4cf14-d2c2-40ff-a991-b9cbe1b0381b)
 
-  Temporarily Disabling the Windows Firewall to test connectivity in the DC-VM.
+  Temporarily Disabling the Windows firewall to test connectivity in the DC-VM.
 
 ![image](https://github.com/user-attachments/assets/c15f5aec-52a1-45c5-adee-b14e2a4dfc50)
 
