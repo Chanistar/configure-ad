@@ -116,7 +116,7 @@ Setting up Remote Desktop for non-administrative users on the Client-VM.
 
 
 Creating multiple additional users using PowerShell as an administrator.
-([https://tinyurl.com/4wrtzya5](url))
+([https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1](url))
 
 
 
