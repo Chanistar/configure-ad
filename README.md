@@ -24,7 +24,7 @@ This guide outlines the installation and configuration of on-premises Active Dir
 - Creating and setting up the Virtual Machines.
 - Testing and Observing connectivity.
 - Installing Active Directory Domain Services. 
-- Adding clientele to the Domain.
+- Adding clientele to the Domain.(https://tinyurl.com/4wrtzya5)
 - Allowing "domain users" access to Remote Desktop.
 - Configuring Active Directory and Group Policy.
 
@@ -116,7 +116,7 @@ Setting up Remote Desktop for non-administrative users on the Client-VM.
 
 
 Creating multiple additional users using PowerShell as an administrator.
-(https://tinyurl.com/4wrtzya5)
+
 
 
 
